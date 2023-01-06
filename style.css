@@ -440,15 +440,16 @@ footer .logo {
     border-radius: 25px;
     background-color: var(--white);
     border-width: 1px;
-    color: black;
-    
     padding: 0.9rem 1.5rem;
-    
     font-size: 0.9rem;
     position: static;
     margin-right: 0.4rem;
     display: initial;
   }
+  .menu a:hover{
+    color: var(--black);
+    font-family: var(--barlow-font);
+}
   .footer-menu a:hover,
   .active:hover,
   .social-media img:hover {
